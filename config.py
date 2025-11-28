@@ -4,7 +4,7 @@ import streamlit as st
 
 # Configuración de Conexión a MongoDB
 # MONGODB_URI = "mongodb://localhost:27017/"  # Para MongoDB local
-MONGODB_URI = st.secrets["mongodb"]["mongodb+srv://alex:1234@cluster0.k6zxwgc.mongodb.net/"] # Para Streamlit Cloud
+MONGODB_URI = st.secrets["mongodb"]["mongodb+srv://alex:1234@cluster0.k6zxwgc.mongodb.net/ # Para Streamlit Cloud
 MONGODB_URI = "mongodb+srv://alex:1234@cluster0.k6zxwgc.mongodb.net/"  # Para MongoDB Atlas
 
 DATABASE_NAME = "tienda_tecnologica"
